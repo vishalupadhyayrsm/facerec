@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html> 
     <head>
-        <meta name="viewport" content="width=device-width, initial-1">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.2.0/dist/tf.min.js"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/@ericblade/quagga2@1.2.6/dist/quagga.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     </head>
     <body>
         <div class="container_box">
             <div class="video_box">
             <h2 class="barcode_txt">BarCode Detector</h2>
             <video id="camera" class="video"></video>
-            
             </div>
             <div class="output_box">
 
@@ -20,7 +22,7 @@
         <i class="fa fa-camera" style="font-size:48px;color:blue"></i>
         </div>
         <script>
-            const video = document.getElementById('camera');
+         const video = document.getElementById('camera');
     var model, embeddings;
     const result = document.getElementById('result');
     const photo = document.getElementById('photo');
@@ -138,7 +140,6 @@
     }
     
     init();
-
         </script>   
     </body>
 </html>
