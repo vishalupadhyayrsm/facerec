@@ -1,0 +1,20 @@
+body {
+  background-color: #202124;
+}
+.container_box {
+  width: 100%;
+}
+.video_box {
+  width: 31%;
+  float: left;
+  border: 1px solid red;
+  margin: 38px 0px 0px 39px;
+}
+.output_box {
+  border: 1px solid green;
+  width: 30%;
+  float: left;
+  margin: 37px 0px 0px 61px;
+}
+.barcode_txt {
+}
