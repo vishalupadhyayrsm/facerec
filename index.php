@@ -7,14 +7,21 @@
 </head>
 <body class="bg-slate-800">
     <div>
-        <h2 class="text-center font-serif text-base font-black text-white">Face Rec</h2>
+        <h2 class="text-center font-serif text-4xl font-black text-white">Face Rec</h2>
     </div>
-    <div class="">
-        <div class="">Video COnatiner</div>
-        <div class="">Output COntainer</div>
+   
+    <div class="grid grid-rows grid-flow-col gap-4">
+        <div class="row-span-2 p-4 border-4">
+            Video Conatiner
+        </div>
+        <div class="row-span-2 p-4 border-4">
+            Output COntainer
+        </div>
     </div>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+
+    <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="box-content h-64 w-64 p-4 border-4">Video Conatiner</div>
+        <div class="box-content h-64 w-64 p-4 border-4">Output COntainer</div>
+    </div>
 </body>
 </html>
