@@ -14,15 +14,25 @@
    
     <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
         <div class="w-full h-8 space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96 lg:w-32">
-        <h2 class="text-center text-white">BarCode Detector</h2>
-        <video id="camera" class=""></video>
+            <h2 class="text-center text-white">BarCode Detector</h2>
+            <video id="camera" class=""></video>
         </div>
-        <div class="w-full h-8 space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96 lg:w-32">
-          Output COntainer
-        </div> 
-        <button type="button" class="" id="btnScanner">Scan Barcode</button>
-        <button type="button" class="" id="btnCapture" onclick="captureVideo()">Capture Image</button>
-        <button type="button" class="" id="btnSubmit">Submit</button>   
+        <div class="w-full h-auto space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96 lg:w-32">
+        <h2 class="text-center text-white">BarCode</h2>
+            <div class="border-2 sm:w-2/3 sm:h-8  mx-1 my-1">
+              <h2 id="scandata" class="text-center text-white"></h2>
+            </div>
+            <div class="w-f">
+              <canvas id="canvas" class="w-full"></canvas>
+            <!-- <img id="photo" alt="no image"> -->
+            </div>
+         
+        </div>
+        <img src="image/bar.png" class="w-20 h-16  object-center" id="btnScanner"/>
+        <img src="image/camera.png" class="w-20 h-16  object-center" id="btnCapture" onclick="captureVideo()" />
+        <!-- <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm px-1 py-2.5 text-center" id="btnScanner">Scan Barcode</button>
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm px-1 py-2.5 text-center" id="btnCapture" onclick="captureVideo()">Capture Image</button> -->
+        <button type="button" class="w-1/2 h-8 bg-blue rounded-full" id="btnSubmit">Submit</button>   
     </div>
     <!-- sm:row-span-1  md:row-span-2 box-content  md:h-96 md:w-96  p-4 border-4
     sm:h-12   sm:row-span-1  md:row-span-2 box-content  md:h-96 md:w-96  p-4 border-4  -->
