@@ -11,7 +11,6 @@
     <div>
         <h2 class="text-center font-serif text-4xl font-black text-white">Face Rec</h2>
     </div>
-   
     <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
         <div class="w-full h-8 space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96  lg:w-11/12 lg:mb-0 xl:11/12">
             <h2 class="text-center text-white">BarCode Detector</h2>
@@ -19,10 +18,10 @@
         </div>
         <div class="w-full h-auto space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-10/12 lg:w-11/12 lg:mb-0 xl:11/12">
         <h2 class="text-center text-white">BarCode</h2>
-            <div class="border-2 w-full sm:h-8  mx-1 my-1">
+            <div class="border-2 w-full sm:h-16  mx-1 my-1 lg:w-6/12">
               <h2 id="scandata" class="text-center text-white"></h2>
             </div>
-            <div class="w-f">
+            <div class="w-full ">
               <canvas id="canvas" class="w-full border-2"></canvas>
               <img id="photo" alt="no image" class="hidden">
             </div>
