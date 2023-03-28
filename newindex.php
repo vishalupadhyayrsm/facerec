@@ -16,12 +16,12 @@
             <h2 class="text-center text-white">BarCode Detector</h2>
             <video id="camera" class=""></video>
         </div>
-        <div class="w-full h-auto space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-10/12 lg:w-11/12 lg:mb-0 xl:11/12">
+        <div class="w-full h-auto space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-10/12 lg:w-11/12 lg:mb-0  xl:11/12">
         <h2 class="text-center text-white">BarCode</h2>
-            <div class="border-2 w-full sm:h-16  mx-1 my-1 lg:w-6/12">
+            <div class="border-2 w-full sm:h-16  mx-1 my-1 lg:w-6/12 lg:mx-20">
               <h2 id="scandata" class="text-center text-white"></h2>
             </div>
-            <div class="w-full ">
+            <div class="w-full lg:w-6/12 lg:mx-20 ">
               <canvas id="canvas" class="w-full border-2"></canvas>
               <img id="photo" alt="no image" class="hidden">
             </div>
