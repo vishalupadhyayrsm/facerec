@@ -13,17 +13,17 @@
     </div>
    
     <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
-        <div class="w-full h-8 space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96 lg:w-32">
+        <div class="w-full h-8 space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96  lg:w-1/2">
             <h2 class="text-center text-white">BarCode Detector</h2>
             <video id="camera" class=""></video>
         </div>
-        <div class="w-full h-auto space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96 lg:w-32">
+        <div class="w-full h-auto space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96 lg:w-1/2">
         <h2 class="text-center text-white">BarCode</h2>
             <div class="border-2 sm:w-2/3 sm:h-8  mx-1 my-1">
               <h2 id="scandata" class="text-center text-white"></h2>
             </div>
             <div class="w-f">
-              <canvas id="canvas" class="w-full"></canvas>
+              <canvas id="canvas" class="w-full border-2"></canvas>
             <!-- <img id="photo" alt="no image"> -->
             </div>
          
