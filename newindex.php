@@ -14,7 +14,7 @@
     <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
         <div class="w-full h-8 space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96  lg:w-11/12 lg:mb-0 xl:11/12">
             <h2 class="text-center text-white">BarCode Detector</h2>
-            <video id="camera" class=""></video>
+            <video id="camera" class="border-2 rounded-t-lg w-full sm:w-9/12 sm:mx-8"></video>
         </div>
         <div class="w-full h-auto space-y-4 border-2 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-10/12 lg:w-11/12 lg:mb-0  xl:11/12">
         <h2 class="text-center text-white">BarCode</h2>
