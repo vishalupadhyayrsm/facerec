@@ -12,19 +12,19 @@
         <h2 class="text-center font-serif text-4xl font-black text-white">Scanner</h2>
     </div>
     <!-- this is video box container -->
-    <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
+    <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 lg:mx-20">
         <div class="w-10/12 h-auto mx-14 space-y-4 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96  lg:w-11/12 lg:mb-0 xl:11/12">
             <!-- <h2 class="text-center text-white font-serif text-4xl font-black">BarCode Detector</h2> -->
             <video id="camera" class="border-2  rounded-md w-full sm:w-10/12 sm:mx-9 lg:11/12 lg:h-96 "></video>
         </div>
-<!-- outpurt will be shown here -->
+       <!-- outpurt will be shown here -->
         <div class="w-10/12 h-auto mx-12 space-y-4  mb-1 sm:w-full sm:h-auto sm:m-1 md:w-10/12 lg:w-11/12 lg:mb-0  xl:11/12">
         <!-- <h2 class="text-center text-white font-serif text-4xl font-black">BarCode</h2> -->
         <h2 class="text-justify text-white font-serif ">Bar Code:</h2>
             <div class="h-11  border-2 rounded-md w-full sm:h-8  mx-1 my-1 lg:w-9/12  lg:h-14">
               <h2 id="scandata" class="text-center text-white font-serif text-4xl font-black"></h2>
             </div>
-            <div class="w-full rounded-md lg:w-9/12 lg:mx-20 lg:h-72">
+            <div class="w-full rounded-md lg:w-9/12  lg:h-72">
             <h2 class="text-justify text-white font-serif ">Capture Image:</h2>
               <canvas id="canvas" class="w-full border-2  rounded-md h-full "></canvas>
               <img id="photo" alt="no image" class="hidden lg:w-6/12">
@@ -33,9 +33,9 @@
         <!-- <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm px-1 py-2.5 text-center" id="btnScanner">Scan Barcode</button>
         <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm px-1 py-2.5 text-center" id="btnCapture" onclick="captureVideo()">Capture Image</button> -->
     </div><br>
-    <div class="mx-40 sm:w-2/3 sm:mx-64  md:mx-56 lg:mx-96 xl:mx-96">
-        <img src="image/bar.png"    class="float-left sm:w-20 h-16 sm:mx-1 md:mx-3 lg:mx-4" id="btnScanner"/>
-        <img src="image/camera.png" class="float-left sm:w-20 h-16 sm:mx-1 md:mx-3 lg:mx-4" id="btnCapture" onclick="captureImage()" />
+    <div class="mx-32 sm:w-2/3 sm:mx-64  md:mx-56 lg:mx-96 xl:mx-96">
+        <img src="image/bar.png"    class="float-left mx-2.5 sm:w-20 h-16 sm:mx-1 md:mx-3 lg:mx-4" id="btnScanner"/>
+        <img src="image/camera.png" class="float-left mx-2.5 sm:w-20 h-16 sm:mx-1 md:mx-3 lg:mx-4" id="btnCapture" onclick="captureImage()" />
         <button type="button" class="float-left h-16 w-20 bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" id="btnSubmit">Submit</button>  
     </div>
     <!-- sm:row-span-1  md:row-span-2 box-content  md:h-96 md:w-96  p-4 border-4
