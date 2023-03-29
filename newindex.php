@@ -14,17 +14,18 @@
     <!-- this is video box container -->
     <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
         <div class="w-10/12 h-auto mx-14 space-y-4 mb-1 sm:w-full sm:h-auto sm:m-1 md:w-96  lg:w-11/12 lg:mb-0 xl:11/12">
-            <h2 class="text-center text-white font-serif text-4xl font-black">BarCode Detector</h2>
+            <!-- <h2 class="text-center text-white font-serif text-4xl font-black">BarCode Detector</h2> -->
             <video id="camera" class="border-2  rounded-md w-full sm:w-10/12 sm:mx-9 lg:11/12 lg:h-96 "></video>
         </div>
 <!-- outpurt will be shown here -->
         <div class="w-10/12 h-auto mx-12 space-y-4  mb-1 sm:w-full sm:h-auto sm:m-1 md:w-10/12 lg:w-11/12 lg:mb-0  xl:11/12">
-        <h2 class="text-center text-white font-serif text-4xl font-black">BarCode</h2>
-        <!-- <h2 class="text-left text-white font-serif ">Bar Code:</h2> -->
-            <div class="h-11  border-2 rounded-md w-full sm:h-8  mx-1 my-1 lg:w-9/12 lg:mx-20 lg:h-14">
+        <!-- <h2 class="text-center text-white font-serif text-4xl font-black">BarCode</h2> -->
+        <h2 class="text-justify text-white font-serif ">Bar Code:</h2>
+            <div class="h-11  border-2 rounded-md w-full sm:h-8  mx-1 my-1 lg:w-9/12  lg:h-14">
               <h2 id="scandata" class="text-center text-white font-serif text-4xl font-black"></h2>
             </div>
             <div class="w-full rounded-md lg:w-9/12 lg:mx-20 lg:h-72">
+            <h2 class="text-justify text-white font-serif ">Capture Image:</h2>
               <canvas id="canvas" class="w-full border-2  rounded-md h-full "></canvas>
               <img id="photo" alt="no image" class="hidden lg:w-6/12">
             </div>
