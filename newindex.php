@@ -157,7 +157,6 @@
           }
         })
     }
-    
     init();
     </script>
     </body>
