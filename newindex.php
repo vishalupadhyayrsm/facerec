@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-800 ">
-    <div class="w-full h-auto  mb-10 shadow-xl">
+    <div class="w-full h-auto  mb-10 shadow-xl py-2">
         <h2 class="text-center font-serif text-4xl font-black text-white">Scanner</h2>
     </div>
     <!-- this is video box container -->
@@ -34,9 +34,9 @@
         <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm px-1 py-2.5 text-center" id="btnCapture" onclick="captureVideo()">Capture Image</button> -->
     </div><br>
     <div class="mx-32 sm:w-2/3 sm:mx-64  md:mx-56 lg:mx-96 xl:mx-96">
-        <img src="image/bar.png"    class="float-left mx-2.5 sm:w-20 h-16 sm:mx-1 md:mx-3 lg:mx-4" id="btnScanner"/>
-        <img src="image/camera.png" class="float-left mx-2.5 sm:w-20 h-16 sm:mx-1 md:mx-3 lg:mx-4" id="btnCapture" onclick="captureImage()" />
-        <button type="button" class="float-left h-16 w-20 bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" id="btnSubmit">Submit</button>  
+        <img src="image/bar.png"    class="float-left mx-2.5 sm:w-20 h-16 sm:mx-1 md:mx-3 lg:mx-4 2xl:mx-8" id="btnScanner"/>
+        <img src="image/camera.png" class="float-left mx-2.5 sm:w-20 h-16 sm:mx-1 md:mx-3 lg:mx-4 2xl:mx-8" id="btnCapture" onclick="captureImage()" />
+        <button type="button" class="float-left h-16 w-20 bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full 2xl:mx-8" id="btnSubmit">Submit</button>  
     </div>
     <!-- sm:row-span-1  md:row-span-2 box-content  md:h-96 md:w-96  p-4 border-4
     sm:h-12   sm:row-span-1  md:row-span-2 box-content  md:h-96 md:w-96  p-4 border-4  -->
