@@ -23,7 +23,7 @@
         <div class="w-10/12 h-auto mx-12 space-y-4  mb-1 sm:w-full sm:h-auto sm:m-1 md:w-10/12 lg:w-11/12 lg:mb-0  xl:11/12">
         <h2 class="text-center text-white font-serif text-4xl font-black">BarCode</h2>
         <!-- <h2 class="text-left text-white font-serif ">Bar Code:</h2> -->
-            <div class="h-11 border-2 rounded-md w-full sm:h-8  mx-1 my-1 lg:w-9/12 lg:mx-20 lg:h-14">
+            <div class="h-11  border-2 rounded-md w-full sm:h-8  mx-1 my-1 lg:w-9/12 lg:mx-20 lg:h-14">
               <h2 id="scandata" class="text-center text-white font-serif text-4xl font-black"></h2>
             </div>
             <div class="w-full rounded-md lg:w-9/12 lg:mx-20 lg:h-72">
