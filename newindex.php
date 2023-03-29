@@ -17,9 +17,7 @@
             <h2 class="text-center text-white font-serif text-4xl font-black">BarCode Detector</h2>
             <video id="camera" class="border-2  rounded-md w-full sm:w-10/12 sm:mx-9 lg:11/12 lg:h-96 "></video>
         </div>
-
 <!-- outpurt will be shown here -->
-
         <div class="w-10/12 h-auto mx-12 space-y-4  mb-1 sm:w-full sm:h-auto sm:m-1 md:w-10/12 lg:w-11/12 lg:mb-0  xl:11/12">
         <h2 class="text-center text-white font-serif text-4xl font-black">BarCode</h2>
         <!-- <h2 class="text-left text-white font-serif ">Bar Code:</h2> -->
